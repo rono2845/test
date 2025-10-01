@@ -12,12 +12,12 @@ jobs:
 
       - name: Lint
         run: |
-          npm lint
+          npm run lint
           echo "Linting Done"
       
       - name: Test
         run: |
-          npm test
+          npm run test
           echo "Testing Done"
 
       - name: Deploying
