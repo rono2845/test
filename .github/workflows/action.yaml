@@ -12,7 +12,7 @@ jobs:
 
       - name: Lint
         run: |
-          npm run lint
+          npm lint
           echo "Linting Done"
       
       - name: Test
