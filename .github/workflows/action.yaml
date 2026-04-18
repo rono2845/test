@@ -28,6 +28,7 @@ jobs:
           pwd
           echo "GITHUB_WORKSPACE: $GITHUB_WORKSPACE"
           echo "GITHUB_EVENT_PATH: $GITHUB_EVENT_PATH"
+          echo "GITHUB_TOKEN: $GITHUB_TOKEN"
       
       - name: Deploying
         run: |
